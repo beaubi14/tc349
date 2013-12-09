@@ -103,6 +103,8 @@ body {
 	
 }
 
+
+
 #background {
 	background-image:url(../img/paperTexture.jpg);
 	background-repeat:repeat;
@@ -356,17 +358,19 @@ footer {
 	border-top: 5px solid black;
 }
 
-.footer ul {
-	align: right;
+.footer {
+	width: 500px;
+	float: center;
+
 }
 
 
 .footer li {
-	display: inline block;
+	display: inline;
 	float: left;
 	text-decoration: none;
 	list-style-type: none;
-	margin-right: 5%;
+	margin-right: 50px;
 }
 
 
@@ -374,6 +378,7 @@ footer {
 .footerp p {
 	padding: 30px 300px 5px 300px;
 	color: #e3e3e3;
+	
 
 }
 
@@ -394,11 +399,9 @@ footer {
 	width: auto;
 	color: #f3f3f3;
 	text-decoration: none;
-	
-	padding: 50px;
-	border: 1px solid #e3e3e3;
-	width: 40%;
+	width: auto;
 	height: 50px;
+	padding: 20%;
 }
 
 .footer a:hover {

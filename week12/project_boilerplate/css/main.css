@@ -362,7 +362,7 @@ footer {
 
 
 .footer li {
-	display: inline block;
+	
 	float: left;
 	text-decoration: none;
 	list-style-type: none;
@@ -400,6 +400,7 @@ footer {
 	width: 40%;
 	height: 50px;
 }
+
 
 .footer a:hover {
 	background: #f3f3f3;
