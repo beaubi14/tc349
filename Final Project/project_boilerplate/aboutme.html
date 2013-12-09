@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Joe Beaubien</title>
+        <meta name="description" content="The homepage of Joe Beaubien">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<SCRIPT LANGUAGE="JavaScript">
+		function popUp(URL) {
+		day = new Date();
+		id = day.getTime();
+		eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=800,height=800,left = 100,top = 100');");
+		}
+
+		// -->
+		</script>
+    </head>
+    <body id="background">
+		<header> 
+				<div id="aboutMeHeader">
+					<div style=" padding-top: 38%; background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);">
+					<h1>Joe Beaubien</h1>
+					<h2>3D Game Design Artist ~ East Lansing, MI</h2>
+				</div>
+		</div>
+		</header>
+		
+		<div id="map-location"data-0="background-image:url(img/skullWireframe_banner.jpg); opacity: 1;" data-300="background-image:url(img/skullRendered_banner.jpg); opacity: 1;" data-900="background-image:url(img/skullRendered_banner.jpg); opacity: 0.5;"> 
+			<h2 style="margin-left: 0px;" class= "title">msu.edu/~beaubi14/</h2>
+
+		</div>
+		<div id= "space"> </div>
+		<div>
+			<img id= "logo" alt="Joe's Logo" src="img/logo_small.png">
+			<ul class="pageMenu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li id="active"><a href="aboutme.html">About Me</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<nav data-0="position:absolute; top:899px;" data-900="position:absolute; top: 901px;" data-1001="position:fixed; top:3%;" data-1749="position:fixed; top:3%;" data-1750="position:absolute; top:1751px">
+			<ul>
+				<li><a href="#generalinfo">General Info</a></li>
+				<li><a href="#mystudies">My Education</a></li>
+				<li><a href="#resume">My Resume</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div></div>
+		<div id= "space"> </div>
+		<article>
+			<section id="generalinfo">
+				<h3 style="margin-left: 70px;">A Little About Myself</h3>
+				<img class= "pic" style= "float:right; margin-left: 30px;" src="img/Thumbnails/Joe_w_Erin.jpg">
+				<p id="generalInfo">My name is Joseph Leroy Beaubien Jr, and I am a recent graduate of Michigan State University. My main interest is game design and art development. I live in East Lansing, were I also work for Media Services as a student worker. My main interests are game design and development, and art of any medium. I come from a small town in Michigan called Hudson, but I live in the East Lansing area(Michigan). </p>
+			</section>
+			
+			<div id= "wrapper"> </div>
+			<!--break -->
+			
+			<section id="mystudies">
+				<h3 style="text-align:right; margin-right: 70px;">My Education</h3>
+				<img class= "pic" style="float: left; margin-right: 30px" src="img/Thumbnails/Joe_w_mike.jpg">
+					<p style="height: 270px;">I graduated from Hudson High School, and from there I went to study at Jackson Community College(JCC) (formally known as Jackson College). I went to JCC for two years and got a degree in general education, which I then transferred my credits to Michigan State University (MSU), where I studied Media Art and Information Technology. </p>
+					
+			</section>
+			<!--break -->
+			<div id= "wrapper"> </div>
+			
+			<section id="resume">
+				<h3 style="margin-left: 70px;">My Resume</h3>
+				<p>As a portfolio website, it is fitting that I should include a link to my resume. Most of my work has been in Info Tech or game design feilds, and I have lots of experience working with educational technology support. Here is a <a href="doc/resume.pdf" target=_blank>link to my resume</a></p>
+				<img class= "pic" style="margin-left: 25%" src="img/Thumbnails/Fancy_Joe.jpg">
+			</section>
+			<!--break -->
+			<div id= "wrapper"> </div>
+			
+		</article>
+		<div id= "wrapper"> </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js">
+			<\/script>')
+		</script>
+		<script src="js/vendor/skrollr.min.js"></script>
+		<script src="js/vendor/skrollr.menu.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		
+		<script type="text/javascript">
+		if ($(window).width() > 600) {
+		var s = skrollr.init();
+
+	skrollr.menu.init(s, {
+	   
+	    animate: true,
+
+	    easing: 'sqrt',
+
+	    
+	    duration: function(currentTop, targetTop) {
+	        //By default, the duration is hardcoded at 500ms.
+	        return 500;
+
+	        //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+	        //return Math.abs(currentTop - targetTop) * 10;
+	    },
+
+
+	});
+	}
+		</script>
+		<div id="tornBorder"></div>
+		<footer id= "contact">  
+			<div class= "footerp">
+			<h3>Contact Me</h3>
+			<p>There are many ways you can contact me, the easiest is to email me at beaubi14@msu.edu, or by clicking on the email button at the botton of the screen. You can also connect with me on Facebook or LinkedIn.</p>
+		</div>
+			<div id="theFooter">
+				<div id= "wrapper"> </div>
+				<ul class="footer">
+					<li><a href="mailto:beaubi14@msu.edu?Subject=Hello%20" target="_top">Email Me</a></li>
+					<li><a href="https://www.facebook.com/joe.beaubien" target=_blank>Facebook</a></li>
+					<li><a href="http://www.linkedin.com/pub/joseph-beaubien/64/199/908" target=_blank>LinkedIn</a></li>
+				</ul>
+			</div>
+			<div id= "wrapper"> </div>
+			<div id="copyrights"> <p>© 2013 Joe Beaubien all rights reserved</p> 
+			<a href="#logo">Return to the Top</a>
+			</div>
+		</footer>
+    </body>
+</html>

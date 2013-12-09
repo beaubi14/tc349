@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Joe Beaubien</title>
+        <meta name="description" content="The homepage of Joe Beaubien">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<SCRIPT LANGUAGE="JavaScript">
+		function popUp(URL) {
+		day = new Date();
+		id = day.getTime();
+		eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=800,height=800,left = 100,top = 100');");
+		}
+
+		// -->
+		</script>
+    </head>
+    <body id="background">
+		<header> 
+				<div id="contactMeHeader">
+					<div style=" padding-top: 38%; background: linear-gradient(to top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);">
+					<h1>Joe Beaubien</h1>
+					<h2>3D Game Design Artist ~ East Lansing, MI</h2>
+		</div>
+	</div>
+		</header>
+		
+		<div id="map-location"data-0="background-image:url(img/skullWireframe_banner.jpg); opacity: 1;" data-300="background-image:url(img/skullRendered_banner.jpg); opacity: 1;" data-900="background-image:url(img/skullRendered_banner.jpg); opacity: 0.5;"> 
+			<h2 style="margin-left: 0px;" class= "title">msu.edu/~beaubi14/</h2>
+		</div>
+		<div id= "space"> </div>
+		<div>
+			<img id= "logo" alt="Joe's Logo" src="img/logo_small.png">
+			<ul class="pageMenu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="aboutme.html">About Me</a></li>
+				<li id="active"><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<nav data-0="position:absolute; top:899px;" data-900="position:absolute; top: 901px;" data-999="position:absolute; top:1000px;"  data-1001="position:fixed; top:3%;" data-1198="position:fixed; top:3%;" data-1199="position:absolute; top:1200px">
+			<ul>
+				<li><a href="#welcome">Want to Talk?</a></li>
+				<li><a href="#SendMessage">Send Me a Message</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div></div>
+		<div id= "space"> </div>
+		<article>
+			<section id="welcome">
+				<h3>Want to talk?</h3>
+				<p>Thank you for visiting my portfolio site, I hope you enjoyed yourself. Look forward to more content on the way, but also remember that I am still learning, and interested in making more to show. If you have any ideas or feedback, send me a message. I have my contact information at the bottom of every page, or you can leave a message using the form below.</p>
+				<div id= "wrapper"> </div>
+			</section>
+			
+			<!--break -->
+			<div id= "wrapper"> </div>
+			
+			<section id="SendMessage">
+				<h3>Send me a Message</h3>
+				<p>In this form, you can send me a message, I would love to hear from you. Send a message or you can contact me via <a href="https://www.facebook.com/joe.beaubien" target=_blank>Facebook</a>, <a href="https://twitter.com/JoeBeaubien" target=_blank>Twitter</a> or <a href="http://www.linkedin.com/pub/joseph-beaubien/64/199/908" target=_blank>LinkedIn</a>. </p>
+				<h3>Send e-mail to beaubi14@msu.edu:</h3>
+
+				<form action="MAILTO:beaubi14@msu.edu" method="post" enctype="text/plain">
+				Name:<br>
+				<input type="text" name="name" value="your name"><br>
+				E-mail:<br>
+				<input type="text" name="mail" value="your email"><br>
+				Comment:<br>
+				<input type="text" name="comment" value="your comment" size="50"><br><br>
+				<input id="okay" type="submit" value="Send">
+				<input id="okay" type="reset" value="Reset">
+				</form>
+				<div id= "wrapper"> </div>
+			</section>
+			<!--break -->
+			<div id= "wrapper"> </div>
+			
+		</article>
+		<div id= "wrapper"> </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js">
+			<\/script>')
+		</script>
+		<script src="js/vendor/skrollr.min.js"></script>
+		<script src="js/vendor/skrollr.menu.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		
+		<script type="text/javascript">
+		if ($(window).width() > 600) {
+		var s = skrollr.init();
+
+	skrollr.menu.init(s, {
+	   
+	    animate: true,
+
+	    easing: 'sqrt',
+
+	    
+	    duration: function(currentTop, targetTop) {
+	        //By default, the duration is hardcoded at 500ms.
+	        return 500;
+
+	        //But you could calculate a value based on the current scroll position (`currentTop`) and the target scroll position (`targetTop`).
+	        //return Math.abs(currentTop - targetTop) * 10;
+	    },
+
+
+	});
+	}
+		</script>
+		<div id="tornBorder"></div>
+		<footer id= "contact">  
+			<div class= "footerp">
+			<h3>Contact Me</h3>
+			<p>There are many ways you can contact me, the easiest is to email me at beaubi14@msu.edu, or by clicking on the email button at the botton of the screen. You can also connect with me on Facebook or LinkedIn.</p>
+		</div>
+			<div id="theFooter">
+				<div id= "wrapper"> </div>
+				<ul class="footer">
+					<li><a href="mailto:beaubi14@msu.edu?Subject=Hello%20" target="_top">Email Me</a></li>
+					<li><a href="https://www.facebook.com/joe.beaubien" target=_blank>Facebook</a></li>
+					<li><a href="http://www.linkedin.com/pub/joseph-beaubien/64/199/908" target=_blank>LinkedIn</a></li>
+				</ul>
+			</div>
+			<div id= "wrapper"> </div>
+			<div id="copyrights"> <p>© 2013 Joe Beaubien all rights reserved</p> 
+			<a href="#logo">Return to the Top</a>
+			</div>
+		</footer>
+    </body>
+</html>
